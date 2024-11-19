@@ -38,7 +38,7 @@ fun EmptyComponent() {
             Spacer(modifier = Modifier.height(8.dp))
 
             Text(
-                text = "Parece estar tudo vazio aqui!",
+                text = "Parece estar tudo vazio!",
                 fontSize = 20.sp,
                 textAlign = TextAlign.Center,
             )
