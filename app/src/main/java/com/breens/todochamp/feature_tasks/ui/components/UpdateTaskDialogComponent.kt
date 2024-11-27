@@ -67,11 +67,11 @@ fun UpdateTaskDialogComponent(
                         label = { Text("Título") },
                         placeholder = { Text(task?.title.toString() ?: "") },
                         colors = TextFieldDefaults.outlinedTextFieldColors(
-                            focusedBorderColor = Color.Black,
-                            unfocusedBorderColor = Color.Black,
-                            focusedLabelColor = Color.Black,
-                            unfocusedLabelColor = Color.Black,
-                            cursorColor = Color.Black,
+                            focusedBorderColor = Color.Blue,
+                            unfocusedBorderColor = Color.Blue,
+                            focusedLabelColor = Color.Blue,
+                            unfocusedLabelColor = Color.Blue,
+                            cursorColor = Color.Blue,
                         ),
                     )
                 }
@@ -87,11 +87,11 @@ fun UpdateTaskDialogComponent(
                         label = { Text("Descrição") },
                         placeholder = { Text(task?.body ?: "") },
                         colors = TextFieldDefaults.outlinedTextFieldColors(
-                            focusedBorderColor = Color.Black,
-                            unfocusedBorderColor = Color.Black,
-                            focusedLabelColor = Color.Black,
-                            unfocusedLabelColor = Color.Black,
-                            cursorColor = Color.Black,
+                            focusedBorderColor = Color.Blue,
+                            unfocusedBorderColor = Color.Blue,
+                            focusedLabelColor = Color.Blue,
+                            unfocusedLabelColor = Color.Blue,
+                            cursorColor = Color.Blue,
                         ),
                     )
                 }
@@ -112,7 +112,7 @@ fun UpdateTaskDialogComponent(
                             },
                             modifier = Modifier.padding(horizontal = 12.dp),
                             colors = ButtonDefaults.buttonColors(
-                                containerColor = Color.Black,
+                                containerColor = Color.Blue,
                                 contentColor = Color.White,
                             ),
                         ) {

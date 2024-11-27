@@ -48,8 +48,7 @@ fun AddTaskDialogComponent(
                     ) {
                         Text(
                             text = "Nova Tarefa",
-                            fontSize = 18.sp,
-                            fontWeight = FontWeight.Bold,
+                            fontSize = 18.sp
                         )
                     }
                 }
@@ -64,11 +63,11 @@ fun AddTaskDialogComponent(
                         },
                         label = { Text("Título") },
                         colors = TextFieldDefaults.outlinedTextFieldColors(
-                            focusedBorderColor = Color.Black,
-                            unfocusedBorderColor = Color.Black,
-                            focusedLabelColor = Color.Black,
-                            unfocusedLabelColor = Color.Black,
-                            cursorColor = Color.Black,
+                            focusedBorderColor = Color.Blue,
+                            unfocusedBorderColor = Color.Blue,
+                            focusedLabelColor = Color.Blue,
+                            unfocusedLabelColor = Color.Blue,
+                            cursorColor = Color.Blue,
                         ),
                     )
                 }
@@ -83,11 +82,11 @@ fun AddTaskDialogComponent(
                         },
                         label = { Text("Descrição") },
                         colors = TextFieldDefaults.outlinedTextFieldColors(
-                            focusedBorderColor = Color.Black,
-                            unfocusedBorderColor = Color.Black,
-                            focusedLabelColor = Color.Black,
-                            unfocusedLabelColor = Color.Black,
-                            cursorColor = Color.Black,
+                            focusedBorderColor = Color.Blue,
+                            unfocusedBorderColor = Color.Blue,
+                            focusedLabelColor = Color.Blue,
+                            unfocusedLabelColor = Color.Blue,
+                            cursorColor = Color.Blue,
                         ),
                     )
                 }
@@ -108,7 +107,7 @@ fun AddTaskDialogComponent(
                             },
                             modifier = Modifier.padding(horizontal = 12.dp),
                             colors = ButtonDefaults.buttonColors(
-                                containerColor = Color.Black,
+                                containerColor = Color.Blue,
                                 contentColor = Color.White,
                             ),
                         ) {

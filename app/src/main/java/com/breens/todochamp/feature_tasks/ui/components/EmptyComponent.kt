@@ -28,18 +28,18 @@ fun EmptyComponent() {
     Box(
         modifier = Modifier.fillMaxSize(),
         contentAlignment = Alignment.Center,
+
     ) {
         Column(
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center,
         ) {
-            EmptyAnimation()
 
             Spacer(modifier = Modifier.height(8.dp))
 
             Text(
                 text = "Parece estar tudo vazio!",
-                fontSize = 20.sp,
+                fontSize = 25.sp,
                 textAlign = TextAlign.Center,
             )
         }

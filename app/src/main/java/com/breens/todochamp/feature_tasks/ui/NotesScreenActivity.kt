@@ -136,7 +136,7 @@ class NotesScreenActivity : ComponentActivity() {
                                 icon = {
                                     Icon(
                                         Icons.Rounded.AddCircle,
-                                        contentDescription = "Add Task",
+                                        contentDescription = "Adicionar Tarefa",
                                         tint = Color.White,
                                     )
                                 },
@@ -152,7 +152,7 @@ class NotesScreenActivity : ComponentActivity() {
                                     )
                                 },
                                 modifier = Modifier.padding(horizontal = 12.dp),
-                                containerColor = Color.Black,
+                                containerColor = Color.Blue,
                                 elevation = FloatingActionButtonDefaults.elevation(defaultElevation = 8.dp),
                             )
                         }
